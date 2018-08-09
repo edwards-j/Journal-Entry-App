@@ -1,12 +1,13 @@
 const formManager = require("./journalForm")
 const dataManager = require("./dataManager")
 const createEntryList = require("./entryList")
+const $ = require("jquery")
 
-document.querySelector("#journalForm").innerHTML = formManager.renderEntryForm();
+$("#journalForm").html(formManager.renderEntryForm());
 createEntryList();
 
 
-document.querySelector("#saveEntryButton").addEventListener("click", () => {
+$("#saveEntryButton").on("click", () => {
     // let d = new Date()
     // let day = d.getDate()
     // let month = d.getMonth() + 1
@@ -29,12 +30,12 @@ document.querySelector("#saveEntryButton").addEventListener("click", () => {
     } else {
 
         const newEntry = {
-            title: document.querySelector("#entryTitle").value,
-            content: document.querySelector("#entryContent").value,
+            title: $("#entryTitle").val(),
+            content: $("#entryContent").val(),
             date: Date(Date.now())
         }
 
-        document.querySelector("#journalEntry").innerHTML = "";
+        $("#journalEntry").html("");
 
         dataManager.saveJournalEntry(newEntry)
             .then(() => formManager.clearForm())

@@ -47,6 +47,8 @@ p {
     margin: .5em 0
 }
 
+
+
 .hero {
     background-color: #ffda05
 }
@@ -122,7 +124,6 @@ button:active {
     font-family: 'Raleway', sans-serif;
     color: gray;
     box-shadow: 0px 9px 25px -2px rgb(63, 63, 63);
-
 }
 
 .example h2 {
