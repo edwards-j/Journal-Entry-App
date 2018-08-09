@@ -8,15 +8,13 @@ const formManager = Object.create(null, {
     renderEntryForm: {
         value: () => {
             return `
-            <fieldset>
-                <label for="entryTitle">Title:</label>
-                <input required type="text" id="entryTitle">
+            <fieldset class="has-text-centered">
+                <label for="entryTitle">Title:</label><br>
+                <input required type="text" id="entryTitle"><br>
+                <label for="entryContent">Deep Thoughts</label><br>
+                <textarea id="entryContent" cols="50" rows="8" placeholder="Write journal entry here"></textarea><br>
+                <button id="saveEntryButton">Save</button><br>
             </fieldset>
-            <fieldset>
-                <label for="entryContent">Deep Thoughts</label>
-                <textarea id="entryContent"></textarea>
-            </fieldset>
-            <button id="saveEntryButton">Save Journal Entry</button>
             `
         }
     }

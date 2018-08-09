@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+html {
+    min-height: 1500px;
+}
+
+fieldset {
+    padding: 1em;
+}
+
+button {
+    height: 30px;
+    background-color: #ffc805 !important;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+fieldset {
+    border: none;
+}
+
+input,
+textarea {
+    margin: 1em;
+}
+
+label {
+    font-size: 2em;
+}
+
+article,
+content {
+    font-family: 'Raleway', sans-serif;
+}
+
+article {
+    font: white;
+}
+
+p {
+    margin: .5em 0
+}
+
+.hero {
+    background-color: #ffda05
+}
+
+.brand-text {
+    font-family: 'Righteous', cursive;
+}
+
+.brand {
+    font-family: 'Righteous', cursive;
+    color: #9013FE;
+    font-size: 4em;
+    overflow: visible !important;
+
+}
+
+.subtitle,
+.subtitle2 {
+    margin: .5em 0 !important;
+    font-family: 'Raleway', sans-serif;
+    color: black
+
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+.entry {
+    border: 2px double grey;
+    padding: 1em;
+    max-width: 75%;
+    margin: 1em;
+    background-color: white;
+}
+
+.container {
+    padding: 2em;
+}
+
+h2:first-child {
+    color: #9013FE !
+}
+
+.rounded {
+    border-radius: 7px;
+}
+
+button{
+    transition: all .2s;
+    box-shadow: none;
+}
+
+
+button:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 9px 17px -5px rgba(117,117,117,1);
+}
+
+
+button:active {
+    background-color: #ebb904;
+    transform: scale(1.15)
+}
+
+.example {
+    border: 2px double grey;
+    padding: .5em;
+    max-width: 33%;
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    color: gray;
+    box-shadow: 0px 9px 25px -2px rgb(63, 63, 63);
+
+}
+
+.example h2 {
+    margin: .5em 0;
+}
+
+.purple-text {
+    color: #9013FE
+}
+
+.purple-bg {
+    background-color: #9013FE
+}
+
+.brand.animated {
+    animation-duration: 1.4s;
+    animation-delay: 1s;
+    transition-timing-function: cubic-bezier(.43,-0.47,.56,1.48) !important;
+}
+
+.subtitle.animated,
+.subtitle2.animated {
+    animation-duration: 2.5s;
+    animation-delay: 1.8s;
+}
+
+.example.animated {
+    animation-duration: 1.3s;
+    animation-delay: 1.8s;
+    animation-timing-function: cubic-bezier(.63,.35,.39,1.39) !important
+}
+
