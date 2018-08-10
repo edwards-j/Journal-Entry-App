@@ -1,7 +1,7 @@
 let createJournalEntry = (entry) => {
     return `
         <div class="entry animated bounceIn rounded" id="div--${entry.id}">
-            <h2 class="is-size-5 has-text-weight-bold">${entry.title}</h2>
+            <h2 class="is-size-5 entry-header">${entry.title}</h2>
             <p>${entry.content}</p>
             <hr>
             <p><strong>Date Posted:</strong> ${entry.date}</p>

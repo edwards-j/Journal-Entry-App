@@ -1,0 +1,16 @@
+.entry-header {
+    font-family: 'Righteous', cursive;
+    color: #9013FE;
+}
+
+.entry {
+    border: 2px double grey;
+    padding: 1em;
+    max-width: 75%;
+    margin: 1em;
+    background-color: #ececec;
+}
+
+h2:first-child {
+    color: #9013FE !
+}

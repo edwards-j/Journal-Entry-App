@@ -1,0 +1,95 @@
+@import "entry.css";
+@import "hero.css";
+@import "footer.css";
+
+:root {
+    --purple: #9013FE;
+    --yellow: #ffda05;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+fieldset {
+    padding: 1em;
+}
+
+button {
+    height: 30px;
+    background-color: var(--yellow) !important;
+    color: black;
+    border: none;
+    border-radius: 5px;
+}
+
+fieldset {
+    border: none;
+}
+
+input,
+textarea {
+    margin: 1em;
+}
+
+label {
+    font-size: 2em;
+}
+
+article,
+content {
+    font-family: 'Raleway', sans-serif;
+}
+
+article {
+    font: white;
+}
+
+p {
+    margin: .5em 0
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+
+.container {
+    padding: 2em;
+}
+
+.rounded {
+    border-radius: 7px;
+}
+
+button{
+    transition: all .2s;
+    box-shadow: none;
+}
+
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 9px 17px -5px rgba(117,117,117,1);
+    border-radius: 8px;
+}
+
+
+button:active {
+    background-color: #ebb904;
+    transform: scale(1.05)
+}
+
+.purple-text {
+    color: var(--purple)
+}
+
+.purple-bg {
+    background-color: var(--purple)
+}

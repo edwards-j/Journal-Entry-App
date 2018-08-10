@@ -1,0 +1,11 @@
+footer {
+    display: flex;
+    background-color: var(--yellow) ;
+    justify-content: center;
+}
+
+
+.footer-brand {
+    font-family: 'Righteous', cursive;
+    color: var(--purple);
+}
